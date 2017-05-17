@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'courses/index'
+
+  get 'greeter/hello' => "gretter#hello"
+  get 'greeter/goodbye'
+  root 'courses#index'
+  #You can have the root of your site routed with "root"
+  # root 'welcome#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
