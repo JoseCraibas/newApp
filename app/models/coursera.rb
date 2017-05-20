@@ -1,5 +1,4 @@
 
-
 class Coursera
 	include HTTParty
 
